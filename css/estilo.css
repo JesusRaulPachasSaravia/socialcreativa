@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  .fondo {
+    background-color: #073496;
+  }
+  
+  .hoja {
+    background: #e6e6e6;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000;
+  }

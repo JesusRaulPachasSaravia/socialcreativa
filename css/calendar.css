@@ -1,0 +1,12 @@
+.calendar-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+  
+  .fc .fc-list-event-graphic, .fc .fc-list-event-time{
+    font-size: 20px;
+  }
+  .fc .fc-list-event-title a{
+    font-size: 20px;
+  }

@@ -1,0 +1,2942 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "cursos_sc",
+    "dateExported": "2023-06-02T17:26:25.692Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "c5947f1e-4475-4ebf-a728-cba69d807f12",
+            "name": "Personas",
+            "containerId": "",
+            "created": "2023-04-24T21:43:43.995Z",
+            "sortNum": 10000,
+            "settings": {
+                "runOptions": {
+                    "delay": 2,
+                    "iterations": 30,
+                    "dataFilePath": ""
+                }
+            }
+        },
+        {
+            "_id": "fe5d00cd-e83c-426d-8277-d33ae58eac2b",
+            "name": "Profesores",
+            "containerId": "",
+            "created": "2023-04-25T14:59:05.911Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "9b0b0326-06da-4818-8e71-966282653618",
+            "name": "Categoria_Habilidades",
+            "containerId": "",
+            "created": "2023-04-25T16:30:15.462Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "92a886f0-fc1c-40f8-99b6-794af8595cb2",
+            "name": "Habilidades",
+            "containerId": "",
+            "created": "2023-04-25T22:17:37.115Z",
+            "sortNum": 50000
+        },
+        {
+            "_id": "b76f1d3e-36dd-4fc7-93f5-6d502c6c1d64",
+            "name": "Usuarios",
+            "containerId": "",
+            "created": "2023-04-29T15:15:03.990Z",
+            "sortNum": 60000,
+            "settings": {
+                "runOptions": {
+                    "delay": 0,
+                    "iterations": 14,
+                    "dataFilePath": ""
+                }
+            }
+        },
+        {
+            "_id": "2cd832e5-550d-42a3-b500-c81024198387",
+            "name": "Alumnos",
+            "containerId": "",
+            "created": "2023-05-05T02:22:16.090Z",
+            "sortNum": 70000
+        },
+        {
+            "_id": "13d105ec-75f6-4676-8065-549c4247340e",
+            "name": "Aulas",
+            "containerId": "",
+            "created": "2023-05-05T14:46:51.334Z",
+            "sortNum": 80000
+        },
+        {
+            "_id": "6d0c8af3-591e-4e16-be81-6e522b344457",
+            "name": "Cursos",
+            "containerId": "",
+            "created": "2023-05-05T15:16:10.514Z",
+            "sortNum": 90000
+        },
+        {
+            "_id": "0162cbf9-58f9-4b9a-9e3b-faf7a012dfe1",
+            "name": "Especialidades",
+            "containerId": "",
+            "created": "2023-05-05T17:17:30.907Z",
+            "sortNum": 100000
+        },
+        {
+            "_id": "451be96a-f3e7-49f1-a69c-3b9dbd8275e0",
+            "name": "Categorias",
+            "containerId": "",
+            "created": "2023-05-06T15:27:39.464Z",
+            "sortNum": 110000
+        },
+        {
+            "_id": "d6a7c140-6ddc-4d61-9995-f28eeb8390e1",
+            "name": "Horarios",
+            "containerId": "",
+            "created": "2023-05-06T16:25:06.449Z",
+            "sortNum": 120000
+        },
+        {
+            "_id": "62232343-d8fb-485f-941d-d513b334ae31",
+            "name": "Matriculas",
+            "containerId": "",
+            "created": "2023-05-20T16:28:26.247Z",
+            "sortNum": 130000
+        },
+        {
+            "_id": "fea7c0cb-5be6-4f70-8518-394b6f88d3a1",
+            "name": "Pagos",
+            "containerId": "",
+            "created": "2023-05-23T19:54:24.307Z",
+            "sortNum": 140000
+        },
+        {
+            "_id": "1b3f62e6-26fd-47c3-b065-052b15e956aa",
+            "name": "Precios",
+            "containerId": "",
+            "created": "2023-05-25T23:10:18.920Z",
+            "sortNum": 150000
+        },
+        {
+            "_id": "5c737e80-dd92-46cd-a585-b60e4dd06af4",
+            "name": "Reportes",
+            "containerId": "",
+            "created": "2023-06-01T23:11:27.581Z",
+            "sortNum": 160000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "85ba476f-8b5f-4ceb-ab29-b350cef62286",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "c5947f1e-4475-4ebf-a728-cba69d807f12",
+            "name": "listarPersonas",
+            "url": "http://localhost/cursos2_sc/controllers/persona.controller.php?operacion=listarPersonas",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-04-24T21:44:03.890Z",
+            "modified": "2023-06-02T17:08:41.762Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "listarPersonas",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "listarPersonas"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "c436d029-9f42-4bcc-80f6-aa6c0d2df513",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "9b0b0326-06da-4818-8e71-966282653618",
+            "name": "listarCategoria_Habilidades",
+            "url": "http://localhost/sc_cursos/controllers/categoria_habilidades.controller.php?operacion=listarCategoriaHabilidades",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-04-25T16:31:14.023Z",
+            "modified": "2023-04-25T22:07:27.500Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "listarCategoriaHabilidades",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "7c499c44-0013-4bb6-bd41-e4d7ed1b9bbd",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "5c737e80-dd92-46cd-a585-b60e4dd06af4",
+            "name": "contarAlumnosEntreFechas",
+            "url": "http://localhost/cursos2_sc/controllers/reporte.controller.php",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-05-25T20:44:11.851Z",
+            "modified": "2023-06-02T15:57:22.739Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "contarAlumnosPorFechas"
+                    },
+                    {
+                        "name": "mesMatricula",
+                        "value": "6"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ae815378-acf7-4eab-b232-6754d06d238e",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "c5947f1e-4475-4ebf-a728-cba69d807f12",
+            "name": "registrarPersonas",
+            "url": "http://localhost/cursos2_sc/controllers/persona.controller.php?operacion=registrarPersonas&tipodoc=CE&nrodocumento=004554441&apepaterno=Alvarez&apematerno=Rodriguez&nombres=Carlos Eduardo&fechaNac=2002-01-01&telefono=999888770&direccion=AV. Benavides&email=AlvarezCarlos@gmail.com",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-04-24T21:53:17.770Z",
+            "modified": "2023-06-02T16:38:27.757Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "registrarPersonas",
+                    "isPath": false
+                },
+                {
+                    "name": "tipodoc",
+                    "value": "CE",
+                    "isPath": false
+                },
+                {
+                    "name": "nrodocumento",
+                    "value": "004554441",
+                    "isPath": false
+                },
+                {
+                    "name": "apepaterno",
+                    "value": "Alvarez",
+                    "isPath": false
+                },
+                {
+                    "name": "apematerno",
+                    "value": "Rodriguez",
+                    "isPath": false
+                },
+                {
+                    "name": "nombres",
+                    "value": "Carlos Eduardo",
+                    "isPath": false
+                },
+                {
+                    "name": "fechaNac",
+                    "value": "2002-01-01",
+                    "isPath": false
+                },
+                {
+                    "name": "telefono",
+                    "value": "999888770",
+                    "isPath": false
+                },
+                {
+                    "name": "direccion",
+                    "value": "AV. Benavides",
+                    "isPath": false
+                },
+                {
+                    "name": "email",
+                    "value": "AlvarezCarlos@gmail.com",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "registrarPersonas"
+                    },
+                    {
+                        "name": "tipodoc",
+                        "value": "DNI"
+                    },
+                    {
+                        "name": "nrodocumento",
+                        "value": "28995663"
+                    },
+                    {
+                        "name": "apepaterno",
+                        "value": "Escate"
+                    },
+                    {
+                        "name": "apematerno",
+                        "value": "Huaman"
+                    },
+                    {
+                        "name": "nombres",
+                        "value": "Juan Manuel"
+                    },
+                    {
+                        "name": "fechaNac",
+                        "value": "1995-01-08"
+                    },
+                    {
+                        "name": "telefono",
+                        "value": "956021478"
+                    },
+                    {
+                        "name": "direccion",
+                        "value": "Chincha alta"
+                    },
+                    {
+                        "name": "email",
+                        "value": "JuanEscate@gmail.com"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d9b2cd9e-8eeb-464e-bd46-207c481d6d37",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "9b0b0326-06da-4818-8e71-966282653618",
+            "name": "registrarCategoriaHabilidades",
+            "url": "http://localhost/sc_cursos/controllers/categoria_habilidades.controller.php?operacion=registrarCategoriaHabilidades&categoria_habilida=Natació",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-04-25T21:01:12.995Z",
+            "modified": "2023-05-04T21:42:45.541Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "registrarCategoriaHabilidades",
+                    "isPath": false
+                },
+                {
+                    "name": "categoria_habilida",
+                    "value": "Natació",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "e102fea8-03e7-4bf0-a739-4aacaf545bcf",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "5c737e80-dd92-46cd-a585-b60e4dd06af4",
+            "name": "Ingresos Mensual por Curso",
+            "url": "http://localhost/cursos2_sc/controllers/reporte.controller.php",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-06-01T23:51:15.837Z",
+            "modified": "2023-06-02T15:57:49.966Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "ingresosMensualPorCurso"
+                    },
+                    {
+                        "name": "mesPago",
+                        "value": "6"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "4bd84675-ff76-4281-8df9-d99bdb418988",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "c5947f1e-4475-4ebf-a728-cba69d807f12",
+            "name": "actualizarPersonas",
+            "url": "http://localhost/sc_cursos/controllers/persona.controller.php?operacion=actualizarPersonas&idpersona=12&tipodoc=DNI&nrodocumento=65888445&apepaterno=Rodriguez&apematerno=Martinez&nombres=Juan Jose&fechaNac=2011-01-01&telefono=912366557&direccion=AV. Benavides #1234&email=JuanRGomez1@gmail.com",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-04-24T23:10:06.524Z",
+            "modified": "2023-04-24T23:15:05.387Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "actualizarPersonas",
+                    "isPath": false
+                },
+                {
+                    "name": "idpersona",
+                    "value": "12",
+                    "isPath": false
+                },
+                {
+                    "name": "tipodoc",
+                    "value": "DNI",
+                    "isPath": false
+                },
+                {
+                    "name": "nrodocumento",
+                    "value": "65888445",
+                    "isPath": false
+                },
+                {
+                    "name": "apepaterno",
+                    "value": "Rodriguez",
+                    "isPath": false
+                },
+                {
+                    "name": "apematerno",
+                    "value": "Martinez",
+                    "isPath": false
+                },
+                {
+                    "name": "nombres",
+                    "value": "Juan Jose",
+                    "isPath": false
+                },
+                {
+                    "name": "fechaNac",
+                    "value": "2011-01-01",
+                    "isPath": false
+                },
+                {
+                    "name": "telefono",
+                    "value": "912366557",
+                    "isPath": false
+                },
+                {
+                    "name": "direccion",
+                    "value": "AV. Benavides #1234",
+                    "isPath": false
+                },
+                {
+                    "name": "email",
+                    "value": "JuanRGomez1@gmail.com",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "0521daa9-0447-49c1-a4f6-2011218fa59a",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "9b0b0326-06da-4818-8e71-966282653618",
+            "name": "actualizarCategoriaHabilidades",
+            "url": "http://localhost/sc_cursos/controllers/categoria_habilidades.controller.php?operacion=actualizarCategoriaHabilidades&idcategoria_habi=19&categoria_habilida=Nataciónn",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-04-25T21:19:46.521Z",
+            "modified": "2023-05-04T21:43:36.194Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "actualizarCategoriaHabilidades",
+                    "isPath": false
+                },
+                {
+                    "name": "idcategoria_habi",
+                    "value": "19",
+                    "isPath": false
+                },
+                {
+                    "name": "categoria_habilida",
+                    "value": "Nataciónn",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "23cfb8d4-4a34-4a64-bb94-8bc06d1d5dbe",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "c5947f1e-4475-4ebf-a728-cba69d807f12",
+            "name": "getPersonas",
+            "url": "http://localhost/cursos2_sc/controllers/persona.controller.php?operacion=getPersonas&idpersona=1",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-04-24T23:15:59.207Z",
+            "modified": "2023-06-02T17:09:31.561Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "getPersonas",
+                    "isPath": false
+                },
+                {
+                    "name": "idpersona",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "getPersonas"
+                    },
+                    {
+                        "name": "idpersona",
+                        "value": "14"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "79c3a821-dc06-4853-99fe-0a696952da38",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "c5947f1e-4475-4ebf-a728-cba69d807f12",
+            "name": "eliminarPersona",
+            "url": "http://localhost/sc_cursos/controllers/persona.controller.php?operacion=eliminarPersona&idpersona=11",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-04-24T23:58:49.653Z",
+            "modified": "2023-04-25T00:07:38.482Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "eliminarPersona",
+                    "isPath": false
+                },
+                {
+                    "name": "idpersona",
+                    "value": "11",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "232e4220-b9ac-4d67-a76d-ef69160497c1",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "fe5d00cd-e83c-426d-8277-d33ae58eac2b",
+            "name": "listarProfesores",
+            "url": "http://localhost/sc_cursos/controllers/profesor.controller.php?operacion=listarProfesores",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-04-25T15:10:28.683Z",
+            "modified": "2023-04-25T15:16:38.966Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "listarProfesores",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "17befc4d-ef95-49f7-93dd-b8d4adf2df23",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "fe5d00cd-e83c-426d-8277-d33ae58eac2b",
+            "name": "registrarProfesores",
+            "url": "http://localhost/sc_cursos/controllers/profesor.controller.php?operacion=registrarProfesores&idpersona=8&nom_banco=BCP&num_cuenta=98594668779073&tipo_cuenta=Ahorro",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-04-25T15:29:37.639Z",
+            "modified": "2023-04-25T15:32:30.316Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "registrarProfesores",
+                    "isPath": false
+                },
+                {
+                    "name": "idpersona",
+                    "value": "8",
+                    "isPath": false
+                },
+                {
+                    "name": "nom_banco",
+                    "value": "BCP",
+                    "isPath": false
+                },
+                {
+                    "name": "num_cuenta",
+                    "value": "98594668779073",
+                    "isPath": false
+                },
+                {
+                    "name": "tipo_cuenta",
+                    "value": "Ahorro",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "1e8cd0de-01dd-4833-b10a-495f16182690",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "fe5d00cd-e83c-426d-8277-d33ae58eac2b",
+            "name": "actualizarProfesores",
+            "url": "http://localhost/sc_cursos/controllers/profesor.controller.php?operacion=actualizarProfesores&idprofesor=6&idpersona=8&nom_banco=BCP&num_cuenta=98594668779072&tipo_cuenta=Ahorro",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-04-25T15:34:02.847Z",
+            "modified": "2023-04-25T15:52:51.383Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "actualizarProfesores",
+                    "isPath": false
+                },
+                {
+                    "name": "idprofesor",
+                    "value": "6",
+                    "isPath": false
+                },
+                {
+                    "name": "idpersona",
+                    "value": "8",
+                    "isPath": false
+                },
+                {
+                    "name": "nom_banco",
+                    "value": "BCP",
+                    "isPath": false
+                },
+                {
+                    "name": "num_cuenta",
+                    "value": "98594668779072",
+                    "isPath": false
+                },
+                {
+                    "name": "tipo_cuenta",
+                    "value": "Ahorro",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "8b17c4f2-b2fa-4ccf-80a3-e2f7c80cddc4",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "fe5d00cd-e83c-426d-8277-d33ae58eac2b",
+            "name": "getProfesores",
+            "url": "http://localhost/sc_cursos/controllers/profesor.controller.php?operacion=getProfesores&idprofesor=4",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2023-04-25T15:56:30.238Z",
+            "modified": "2023-04-25T16:04:48.986Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "getProfesores",
+                    "isPath": false
+                },
+                {
+                    "name": "idprofesor",
+                    "value": "4",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "3d8b146f-c337-4a83-a21b-9187b04224de",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "fe5d00cd-e83c-426d-8277-d33ae58eac2b",
+            "name": "eliminarProfesor",
+            "url": "http://localhost/sc_cursos/controllers/profesor.controller.php?operacion=eliminarProfesor&idprofesor=5",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2023-04-25T16:05:27.330Z",
+            "modified": "2023-04-25T16:11:46.525Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "eliminarProfesor",
+                    "isPath": false
+                },
+                {
+                    "name": "idprofesor",
+                    "value": "5",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "6d3af0ac-5153-4924-8502-4912c8dd4dc9",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "9b0b0326-06da-4818-8e71-966282653618",
+            "name": "getCategoriaHabilidades",
+            "url": "http://localhost/sc_cursos/controllers/categoria_habilidades.controller.php?operacion=getCategoriaHabilidades&idcategoria_habi=3",
+            "method": "GET",
+            "sortNum": 150000,
+            "created": "2023-04-25T22:08:06.613Z",
+            "modified": "2023-04-25T22:10:00.130Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "getCategoriaHabilidades",
+                    "isPath": false
+                },
+                {
+                    "name": "idcategoria_habi",
+                    "value": "3",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "46f3649b-ec09-4e9e-9f0e-81905e48f98d",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "9b0b0326-06da-4818-8e71-966282653618",
+            "name": "eliminarCategoriaHabilidades",
+            "url": "http://localhost/sc_cursos/controllers/categoria_habilidades.controller.php?operacion=eliminarCategoriaHabilidades&idcategoria_habi=19",
+            "method": "GET",
+            "sortNum": 160000,
+            "created": "2023-04-25T22:15:11.989Z",
+            "modified": "2023-05-04T21:43:50.072Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "eliminarCategoriaHabilidades",
+                    "isPath": false
+                },
+                {
+                    "name": "idcategoria_habi",
+                    "value": "19",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "e6340d80-ff7a-485a-8adf-a77387d22681",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "92a886f0-fc1c-40f8-99b6-794af8595cb2",
+            "name": "ListarHabilidades",
+            "url": "http://localhost/sc_cursos/controllers/habilidad.controller.php?operacion=listarHabilidades",
+            "method": "GET",
+            "sortNum": 170000,
+            "created": "2023-04-25T22:17:48.340Z",
+            "modified": "2023-04-25T22:33:31.334Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "listarHabilidades",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "f3d376e8-22f9-4e16-b92e-0f818056d164",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "92a886f0-fc1c-40f8-99b6-794af8595cb2",
+            "name": "registrarHabilidades",
+            "url": "http://localhost/sc_cursos/controllers/habilidad.controller.php?operacion=registrarHabilidades&idcategoria_habi=1&idprofesor=1&habilidad=Flauta&comentario=SC",
+            "method": "GET",
+            "sortNum": 180000,
+            "created": "2023-04-25T22:45:51.056Z",
+            "modified": "2023-04-25T22:47:18.848Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "registrarHabilidades",
+                    "isPath": false
+                },
+                {
+                    "name": "idcategoria_habi",
+                    "value": "1",
+                    "isPath": false
+                },
+                {
+                    "name": "idprofesor",
+                    "value": "1",
+                    "isPath": false
+                },
+                {
+                    "name": "habilidad",
+                    "value": "Flauta",
+                    "isPath": false
+                },
+                {
+                    "name": "comentario",
+                    "value": "SC",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "dc8d2696-b49f-449a-9579-b9a435fe05de",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "92a886f0-fc1c-40f8-99b6-794af8595cb2",
+            "name": "editarHabilidades",
+            "url": "http://localhost/sc_cursos/controllers/habilidad.controller.php?operacion=actualizarHabilidades&idhabilidades=1&idcategoria_habi=1&idprofesor=1&habilidad=Trombon&comentario=SC",
+            "method": "GET",
+            "sortNum": 190000,
+            "created": "2023-04-25T22:51:15.825Z",
+            "modified": "2023-04-25T23:21:37.962Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "actualizarHabilidades",
+                    "isPath": false
+                },
+                {
+                    "name": "idhabilidades",
+                    "value": "1",
+                    "isPath": false
+                },
+                {
+                    "name": "idcategoria_habi",
+                    "value": "1",
+                    "isPath": false
+                },
+                {
+                    "name": "idprofesor",
+                    "value": "1",
+                    "isPath": false
+                },
+                {
+                    "name": "habilidad",
+                    "value": "Trombon",
+                    "isPath": false
+                },
+                {
+                    "name": "comentario",
+                    "value": "SC",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "4caa1391-6b5a-47c0-b0a9-9a6900b6c1b5",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "92a886f0-fc1c-40f8-99b6-794af8595cb2",
+            "name": "getHabilidades",
+            "url": "http://localhost/sc_cursos/controllers/habilidad.controller.php?operacion=getHabilidad&idhabilidades=9",
+            "method": "GET",
+            "sortNum": 200000,
+            "created": "2023-04-25T23:26:21.124Z",
+            "modified": "2023-04-25T23:27:23.117Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "getHabilidad",
+                    "isPath": false
+                },
+                {
+                    "name": "idhabilidades",
+                    "value": "9",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "5bd22757-c555-49b8-82f3-632b8d227e41",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "92a886f0-fc1c-40f8-99b6-794af8595cb2",
+            "name": "eliminarHabilidad",
+            "url": "http://localhost/sc_cursos/controllers/habilidad.controller.php?operacion=eliminarHabilidad&idhabilidades=1",
+            "method": "GET",
+            "sortNum": 210000,
+            "created": "2023-04-25T23:29:41.614Z",
+            "modified": "2023-04-25T23:30:18.217Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "eliminarHabilidad",
+                    "isPath": false
+                },
+                {
+                    "name": "idhabilidades",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "d1af4f12-0009-4eba-9264-12dbe826425d",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "b76f1d3e-36dd-4fc7-93f5-6d502c6c1d64",
+            "name": "listarUsuarios",
+            "url": "http://localhost/sc_cursos/controllers/usuario.controller.php?operacion=listarUsuarios",
+            "method": "GET",
+            "sortNum": 220000,
+            "created": "2023-04-29T15:15:12.626Z",
+            "modified": "2023-04-29T15:15:52.370Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "listarUsuarios",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "b3089b97-c454-4db2-85b5-fedb8ef2e33c",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "b76f1d3e-36dd-4fc7-93f5-6d502c6c1d64",
+            "name": "LoginUsuarios",
+            "url": "http://localhost/sc_cursos/controllers/usuario.controller.php?operacion=login&emailOrUserName=jerepe&claveacceso=4321",
+            "method": "GET",
+            "sortNum": 225000,
+            "created": "2023-05-09T04:03:49.052Z",
+            "modified": "2023-05-09T23:17:56.994Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "login",
+                    "isPath": false
+                },
+                {
+                    "name": "emailOrUserName",
+                    "value": "jerepe",
+                    "isPath": false
+                },
+                {
+                    "name": "claveacceso",
+                    "value": "4321",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "b963f831-ac88-4bc9-9e1d-122c5ab190bf",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "b76f1d3e-36dd-4fc7-93f5-6d502c6c1d64",
+            "name": "registrarUsuarios",
+            "url": "http://localhost/sc_cursos/controllers/usuario.controller.php?operacion=registrarUsuarios&idpersona=44&nombreusuario=jepere&claveacceso=4321&nivelacceso=U",
+            "method": "GET",
+            "sortNum": 230000,
+            "created": "2023-04-29T15:24:37.448Z",
+            "modified": "2023-05-09T23:16:55.960Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "registrarUsuarios",
+                    "isPath": false
+                },
+                {
+                    "name": "idpersona",
+                    "value": "44",
+                    "isPath": false
+                },
+                {
+                    "name": "nombreusuario",
+                    "value": "jepere",
+                    "isPath": false
+                },
+                {
+                    "name": "claveacceso",
+                    "value": "4321",
+                    "isPath": false
+                },
+                {
+                    "name": "nivelacceso",
+                    "value": "U",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "8d4ef460-60ed-4816-9725-76cbd67e2fc9",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "b76f1d3e-36dd-4fc7-93f5-6d502c6c1d64",
+            "name": "actualizarUsuarios",
+            "url": "http://localhost/cursos2_sc/controllers/usuario.controller.php?operacion=actualizarUsuarios&idusuario=10&idpersona=43&nombreusuario=juan_luis_guerra4321&nivelacceso=I",
+            "method": "POST",
+            "sortNum": 240000,
+            "created": "2023-04-29T15:35:22.234Z",
+            "modified": "2023-05-20T16:06:32.134Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "actualizarUsuarios",
+                    "isPath": false
+                },
+                {
+                    "name": "idusuario",
+                    "value": "10",
+                    "isPath": false
+                },
+                {
+                    "name": "idpersona",
+                    "value": "43",
+                    "isPath": false
+                },
+                {
+                    "name": "nombreusuario",
+                    "value": "juan_luis_guerra4321",
+                    "isPath": false
+                },
+                {
+                    "name": "nivelacceso",
+                    "value": "I",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "actualizarUsuarios"
+                    },
+                    {
+                        "name": "idusuario",
+                        "value": "9"
+                    },
+                    {
+                        "name": "nombreusuario",
+                        "value": "DadaVid"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "8d37f621-b7d6-4891-af8c-e233e4bbf6bc",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "b76f1d3e-36dd-4fc7-93f5-6d502c6c1d64",
+            "name": "actualizarClaveUsuarios",
+            "url": "http://localhost/sc_cursos/controllers/usuario.controller.php?operacion=actualizarClaveUsuarios&idusuario=9&claveacceso=1234",
+            "method": "GET",
+            "sortNum": 250000,
+            "created": "2023-04-29T16:08:08.379Z",
+            "modified": "2023-05-10T03:30:19.455Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "actualizarClaveUsuarios",
+                    "isPath": false
+                },
+                {
+                    "name": "idusuario",
+                    "value": "9",
+                    "isPath": false
+                },
+                {
+                    "name": "claveacceso",
+                    "value": "1234",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "6fdbdc57-b380-418f-9e04-dd7b7bff46da",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "b76f1d3e-36dd-4fc7-93f5-6d502c6c1d64",
+            "name": "inhabilitarUsuarios",
+            "url": "http://localhost/sc_cursos/controllers/usuario.controller.php?operacion=inhabilitarUsuarios&idusuario=10",
+            "method": "GET",
+            "sortNum": 260000,
+            "created": "2023-04-29T16:22:10.517Z",
+            "modified": "2023-04-29T16:22:42.916Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "inhabilitarUsuarios",
+                    "isPath": false
+                },
+                {
+                    "name": "idusuario",
+                    "value": "10",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "759e84c8-c4f9-4585-81cc-5bd5e21de1ff",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "b76f1d3e-36dd-4fc7-93f5-6d502c6c1d64",
+            "name": "habilitarUsuarios Copy",
+            "url": "http://localhost/sc_cursos/controllers/usuario.controller.php?operacion=habilitarUsuarios&idusuario=10",
+            "method": "GET",
+            "sortNum": 270000,
+            "created": "2023-04-29T16:24:04.410Z",
+            "modified": "2023-04-29T16:24:17.368Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "habilitarUsuarios",
+                    "isPath": false
+                },
+                {
+                    "name": "idusuario",
+                    "value": "10",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "52309659-7e8b-45be-be10-37fbf3dbce38",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "b76f1d3e-36dd-4fc7-93f5-6d502c6c1d64",
+            "name": "degradarAdmin",
+            "url": "http://localhost/sc_cursos/controllers/usuario.controller.php?operacion=degradarAdmin&idusuario=5",
+            "method": "GET",
+            "sortNum": 280000,
+            "created": "2023-04-29T16:26:53.215Z",
+            "modified": "2023-04-29T16:27:32.526Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "degradarAdmin",
+                    "isPath": false
+                },
+                {
+                    "name": "idusuario",
+                    "value": "5",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "b5ad8e4e-f6f8-4e02-b1c5-0252634a9926",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "b76f1d3e-36dd-4fc7-93f5-6d502c6c1d64",
+            "name": "promoverInvitado",
+            "url": "http://localhost/sc_cursos/controllers/usuario.controller.php?operacion=promoverInvitado&idusuario=10",
+            "method": "GET",
+            "sortNum": 290000,
+            "created": "2023-04-29T16:29:44.225Z",
+            "modified": "2023-04-29T16:31:02.213Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "promoverInvitado",
+                    "isPath": false
+                },
+                {
+                    "name": "idusuario",
+                    "value": "10",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "5ec289b1-a11e-4d12-b087-c8389c78e512",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "b76f1d3e-36dd-4fc7-93f5-6d502c6c1d64",
+            "name": "getUsuarios",
+            "url": "http://localhost/sc_cursos/controllers/usuario.controller.php?operacion=getUsuarios&idusuario=8",
+            "method": "GET",
+            "sortNum": 300000,
+            "created": "2023-04-29T16:49:35.583Z",
+            "modified": "2023-04-29T16:51:24.913Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "getUsuarios",
+                    "isPath": false
+                },
+                {
+                    "name": "idusuario",
+                    "value": "8",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "1353aa52-b101-462d-a6b4-13971d242093",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "2cd832e5-550d-42a3-b500-c81024198387",
+            "name": "listarAlumnos",
+            "url": "http://localhost/sc_cursos/controllers/alumno.controller.php?operacion=listarAlumnos",
+            "method": "POST",
+            "sortNum": 310000,
+            "created": "2023-05-05T02:22:29.129Z",
+            "modified": "2023-05-20T16:35:53.844Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "listarAlumnos",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "listarAlumnos"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "064cc1b5-20c2-4124-8dbf-006d3ce8aa11",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "b76f1d3e-36dd-4fc7-93f5-6d502c6c1d64",
+            "name": "contarColaboradores",
+            "url": "http://localhost/cursos2_sc/controllers/usuario.controller.php?operacion=getUsuarios",
+            "method": "POST",
+            "sortNum": 310000,
+            "created": "2023-05-19T16:13:57.538Z",
+            "modified": "2023-05-19T16:15:05.385Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "getUsuarios",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "ContarUsuariosColaboradores"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "64faad13-2756-407d-bf7b-25a365b89548",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "2cd832e5-550d-42a3-b500-c81024198387",
+            "name": "registrarAlumnos",
+            "url": "http://localhost/sc_cursos/controllers/alumno.controller.php?operacion=registrarAlumnos&idpersona=52&esMayordeEdad&parentesco",
+            "method": "GET",
+            "sortNum": 320000,
+            "created": "2023-05-05T02:28:31.054Z",
+            "modified": "2023-05-10T04:58:49.385Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "registrarAlumnos",
+                    "isPath": false
+                },
+                {
+                    "name": "idpersona",
+                    "value": "52",
+                    "isPath": false
+                },
+                {
+                    "name": "esMayordeEdad",
+                    "value": "",
+                    "isPath": false
+                },
+                {
+                    "name": "parentesco",
+                    "value": "",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "337e415b-eafc-43a3-8a36-da76adf59b81",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "b76f1d3e-36dd-4fc7-93f5-6d502c6c1d64",
+            "name": "contarProfesores",
+            "url": "http://localhost/cursos2_sc/controllers/usuario.controller.php?operacion=getUsuarios",
+            "method": "POST",
+            "sortNum": 320000,
+            "created": "2023-05-19T16:27:57.309Z",
+            "modified": "2023-05-20T16:18:27.657Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "getUsuarios",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "ContarUsuariosProfesores"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "0d6b3bd2-7451-4d82-b411-1247f8af9c08",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "2cd832e5-550d-42a3-b500-c81024198387",
+            "name": "actualizarAlumnos",
+            "url": "http://localhost/cursos2_sc/controllers/alumno.controller.php?operacion=actualizarAlumnos&idalumno=7&idpersona=44&esMayordeEdad=1&parentesco=Sobrino",
+            "method": "POST",
+            "sortNum": 330000,
+            "created": "2023-05-05T02:31:10.444Z",
+            "modified": "2023-05-25T21:36:49.153Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "actualizarAlumnos",
+                    "isPath": false
+                },
+                {
+                    "name": "idalumno",
+                    "value": "7",
+                    "isPath": false
+                },
+                {
+                    "name": "idpersona",
+                    "value": "44",
+                    "isPath": false
+                },
+                {
+                    "name": "esMayordeEdad",
+                    "value": "1",
+                    "isPath": false
+                },
+                {
+                    "name": "parentesco",
+                    "value": "Sobrino",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "actualizarAlumnos"
+                    },
+                    {
+                        "name": "idmatricula",
+                        "value": "6"
+                    },
+                    {
+                        "name": "idalumno",
+                        "value": "4"
+                    },
+                    {
+                        "name": "idapoderado",
+                        "value": "2"
+                    },
+                    {
+                        "name": "parentesco",
+                        "value": "Tío"
+                    },
+                    {
+                        "name": "observacion",
+                        "value": ""
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "84faf056-aec2-4be6-8775-cfac1352c069",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "b76f1d3e-36dd-4fc7-93f5-6d502c6c1d64",
+            "name": "contarAdmin",
+            "url": "http://localhost/cursos2_sc/controllers/usuario.controller.php?operacion=getUsuarios",
+            "method": "POST",
+            "sortNum": 330000,
+            "created": "2023-05-19T16:28:35.184Z",
+            "modified": "2023-05-19T16:29:22.880Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "getUsuarios",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "ContarUsuariosAdministradores"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a040ac3f-8c79-463b-bd7e-5ce369d0e58d",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "2cd832e5-550d-42a3-b500-c81024198387",
+            "name": "eliminarAlumno",
+            "url": "http://localhost/sc_cursos/controllers/alumno.controller.php?operacion=eliminarAlumno&idalumno=7",
+            "method": "GET",
+            "sortNum": 340000,
+            "created": "2023-05-05T02:33:02.008Z",
+            "modified": "2023-05-05T02:35:24.871Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "eliminarAlumno",
+                    "isPath": false
+                },
+                {
+                    "name": "idalumno",
+                    "value": "7",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "dba3037a-a83b-47c0-aa7c-3109585d3901",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "b76f1d3e-36dd-4fc7-93f5-6d502c6c1d64",
+            "name": "contarTutores",
+            "url": "http://localhost/cursos2_sc/controllers/usuario.controller.php?operacion=getUsuarios",
+            "method": "POST",
+            "sortNum": 340000,
+            "created": "2023-05-20T16:21:53.815Z",
+            "modified": "2023-05-20T16:22:13.241Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "getUsuarios",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "ContarUsuariosTutores"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a38cbe18-57b5-4df7-b7aa-bd4065b7c990",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "2cd832e5-550d-42a3-b500-c81024198387",
+            "name": "getAlumno",
+            "url": "http://localhost/sc_cursos/controllers/alumno.controller.php?operacion=getAlumnos&idalumno=7",
+            "method": "GET",
+            "sortNum": 350000,
+            "created": "2023-05-05T02:33:46.551Z",
+            "modified": "2023-05-05T02:34:04.112Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "getAlumnos",
+                    "isPath": false
+                },
+                {
+                    "name": "idalumno",
+                    "value": "7",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "dfb98ebd-99a5-460c-8925-37179f5e0664",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "2cd832e5-550d-42a3-b500-c81024198387",
+            "name": "contarAlumnos por curso",
+            "url": "http://localhost/cursos2_sc/controllers/alumno.controller.php?operacion=getAlumnos&idalumno=7",
+            "method": "POST",
+            "sortNum": 355000,
+            "created": "2023-05-25T20:51:30.460Z",
+            "modified": "2023-05-25T20:53:05.123Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "getAlumnos",
+                    "isPath": false
+                },
+                {
+                    "name": "idalumno",
+                    "value": "7",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "ContarAlumnosPorCurso"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "4d82fcd8-23fa-4ab3-961b-9e9570ad3aa0",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "13d105ec-75f6-4676-8065-549c4247340e",
+            "name": "listarAulas",
+            "url": "http://localhost/sc_cursos/controllers/aula.controller.php?operacion=listarAulas",
+            "method": "GET",
+            "sortNum": 360000,
+            "created": "2023-05-05T14:47:00.897Z",
+            "modified": "2023-05-05T14:47:36.331Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "listarAulas",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "b340b1f1-3eb2-4e17-b142-5ddfb2dac992",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "13d105ec-75f6-4676-8065-549c4247340e",
+            "name": "registrarAulas",
+            "url": "http://localhost/sc_cursos/controllers/aula.controller.php?operacion=registrarAulas&numaula=10&aforo=15&ubicacion=Sede Principal",
+            "method": "GET",
+            "sortNum": 370000,
+            "created": "2023-05-05T14:53:14.956Z",
+            "modified": "2023-05-05T14:54:21.625Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "registrarAulas",
+                    "isPath": false
+                },
+                {
+                    "name": "numaula",
+                    "value": "10",
+                    "isPath": false
+                },
+                {
+                    "name": "aforo",
+                    "value": "15",
+                    "isPath": false
+                },
+                {
+                    "name": "ubicacion",
+                    "value": "Sede Principal",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "1e05de46-5b8d-4304-a77a-66e956c72da1",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "13d105ec-75f6-4676-8065-549c4247340e",
+            "name": "actualizarAulas",
+            "url": "http://localhost/sc_cursos/controllers/aula.controller.php?operacion=actualizarAulas&numaula=010&aforo=18&ubicacion=Sede Principal&idaula=8",
+            "method": "GET",
+            "sortNum": 380000,
+            "created": "2023-05-05T14:55:17.651Z",
+            "modified": "2023-05-05T14:58:17.238Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "actualizarAulas",
+                    "isPath": false
+                },
+                {
+                    "name": "numaula",
+                    "value": "010",
+                    "isPath": false
+                },
+                {
+                    "name": "aforo",
+                    "value": "18",
+                    "isPath": false
+                },
+                {
+                    "name": "ubicacion",
+                    "value": "Sede Principal",
+                    "isPath": false
+                },
+                {
+                    "name": "idaula",
+                    "value": "8",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "9b8531d7-e520-4ebe-82ca-0d2a19c2d9d0",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "13d105ec-75f6-4676-8065-549c4247340e",
+            "name": "getAulas",
+            "url": "http://localhost/sc_cursos/controllers/aula.controller.php?operacion=getAulas&idaula=8",
+            "method": "GET",
+            "sortNum": 390000,
+            "created": "2023-05-05T14:58:52.856Z",
+            "modified": "2023-05-05T15:01:37.890Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "getAulas",
+                    "isPath": false
+                },
+                {
+                    "name": "idaula",
+                    "value": "8",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "0dd15453-6ba5-4b23-a715-2679159a4066",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "13d105ec-75f6-4676-8065-549c4247340e",
+            "name": "eliminarAula",
+            "url": "http://localhost/sc_cursos/controllers/aula.controller.php?operacion=eliminarAula&idaula=7",
+            "method": "GET",
+            "sortNum": 400000,
+            "created": "2023-05-05T15:03:11.745Z",
+            "modified": "2023-05-05T15:05:54.342Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "eliminarAula",
+                    "isPath": false
+                },
+                {
+                    "name": "idaula",
+                    "value": "7",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "8678a15f-fa4e-4486-ba5b-5c1ec8aa5085",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "6d0c8af3-591e-4e16-be81-6e522b344457",
+            "name": "listarCursos",
+            "url": "http://localhost/cursos2_sc/controllers/curso.controller.php?operacion=listarCursos",
+            "method": "POST",
+            "sortNum": 420000,
+            "created": "2023-05-05T15:16:27.985Z",
+            "modified": "2023-05-25T20:41:57.108Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "listarCursos",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "listarCursosActivos"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "f1dab8fc-4755-49bc-8d53-714fd6ae3382",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "6d0c8af3-591e-4e16-be81-6e522b344457",
+            "name": "registrarCursos",
+            "url": "http://localhost/cursos2_sc/controllers/curso.controller.php",
+            "method": "POST",
+            "sortNum": 430000,
+            "created": "2023-05-05T15:34:09.284Z",
+            "modified": "2023-05-20T15:50:14.297Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "actualizarCursos"
+                    },
+                    {
+                        "name": "idcurso",
+                        "value": "5"
+                    },
+                    {
+                        "name": "idcategoria",
+                        "value": "1"
+                    },
+                    {
+                        "name": "idprofesor",
+                        "value": "1"
+                    },
+                    {
+                        "name": "idaula",
+                        "value": "1"
+                    },
+                    {
+                        "name": "titulo",
+                        "value": "algo"
+                    },
+                    {
+                        "name": "descripcion",
+                        "value": "algx 2"
+                    },
+                    {
+                        "name": "nivel",
+                        "value": "alto"
+                    },
+                    {
+                        "name": "numMeses",
+                        "value": "3"
+                    },
+                    {
+                        "name": "edadminima",
+                        "value": "11"
+                    },
+                    {
+                        "name": "edadmaxima",
+                        "value": "15"
+                    },
+                    {
+                        "name": "vacantes",
+                        "value": "15"
+                    },
+                    {
+                        "name": "totalhoras",
+                        "value": "66"
+                    },
+                    {
+                        "name": "precio",
+                        "value": "66"
+                    },
+                    {
+                        "name": "fecha_inicio",
+                        "value": "2023-05-05"
+                    },
+                    {
+                        "name": "fecha_fin",
+                        "value": "2023-08-08"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "974dad69-4e53-4c5c-8ab7-b92ff22a6a45",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "6d0c8af3-591e-4e16-be81-6e522b344457",
+            "name": "actualizarCursos",
+            "url": "http://localhost/sc_cursos/controllers/curso.controller.php?operacion=actualizarCursos&idcurso=3&idcategoria=2&idprofesor=1&idaula=1&titulo=Curso de Trompeta&descripcion=Curso básico de Trompeta&numMeses=3&edadminima=10&edadmaxima=22&vacantes=10&totalhoras=72&precio=70.50&fecha_inicio=2023-06-22&fecha_fin=2023-08-22",
+            "method": "GET",
+            "sortNum": 440000,
+            "created": "2023-05-05T15:42:00.951Z",
+            "modified": "2023-05-05T15:48:28.167Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "actualizarCursos",
+                    "isPath": false
+                },
+                {
+                    "name": "idcurso",
+                    "value": "3",
+                    "isPath": false
+                },
+                {
+                    "name": "idcategoria",
+                    "value": "2",
+                    "isPath": false
+                },
+                {
+                    "name": "idprofesor",
+                    "value": "1",
+                    "isPath": false
+                },
+                {
+                    "name": "idaula",
+                    "value": "1",
+                    "isPath": false
+                },
+                {
+                    "name": "titulo",
+                    "value": "Curso de Trompeta",
+                    "isPath": false
+                },
+                {
+                    "name": "descripcion",
+                    "value": "Curso básico de Trompeta",
+                    "isPath": false
+                },
+                {
+                    "name": "numMeses",
+                    "value": "3",
+                    "isPath": false
+                },
+                {
+                    "name": "edadminima",
+                    "value": "10",
+                    "isPath": false
+                },
+                {
+                    "name": "edadmaxima",
+                    "value": "22",
+                    "isPath": false
+                },
+                {
+                    "name": "vacantes",
+                    "value": "10",
+                    "isPath": false
+                },
+                {
+                    "name": "totalhoras",
+                    "value": "72",
+                    "isPath": false
+                },
+                {
+                    "name": "precio",
+                    "value": "70.50",
+                    "isPath": false
+                },
+                {
+                    "name": "fecha_inicio",
+                    "value": "2023-06-22",
+                    "isPath": false
+                },
+                {
+                    "name": "fecha_fin",
+                    "value": "2023-08-22",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "7861d52c-9fed-42a6-a471-a892f8566c23",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "6d0c8af3-591e-4e16-be81-6e522b344457",
+            "name": "getCursos",
+            "url": "http://localhost/cursos2_sc/controllers/curso.controller.php?operacion=getCursos&idcurso=1",
+            "method": "POST",
+            "sortNum": 450000,
+            "created": "2023-05-05T15:55:28.765Z",
+            "modified": "2023-05-20T15:54:47.004Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "getCursos",
+                    "isPath": false
+                },
+                {
+                    "name": "idcurso",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "getCursos"
+                    },
+                    {
+                        "name": "idcurso",
+                        "value": "1"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "b2cc2774-198d-4613-8503-485d0baced45",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "6d0c8af3-591e-4e16-be81-6e522b344457",
+            "name": "eliminarCurso",
+            "url": "http://localhost/sc_cursos/controllers/curso.controller.php?operacion=eliminarCurso&idcurso=4",
+            "method": "GET",
+            "sortNum": 460000,
+            "created": "2023-05-05T15:56:19.820Z",
+            "modified": "2023-05-05T15:57:15.066Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "eliminarCurso",
+                    "isPath": false
+                },
+                {
+                    "name": "idcurso",
+                    "value": "4",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "2c3b0c00-b2a2-457e-8887-5024ff98eb94",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "0162cbf9-58f9-4b9a-9e3b-faf7a012dfe1",
+            "name": "listarEspecialidades",
+            "url": "http://localhost/sc_cursos/controllers/especialidad.controller.php?operacion=listarEspecialidades",
+            "method": "GET",
+            "sortNum": 470000,
+            "created": "2023-05-05T17:17:41.026Z",
+            "modified": "2023-05-05T17:18:16.936Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "listarEspecialidades",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "143308f9-02e0-4823-915a-88e98ba83a20",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "0162cbf9-58f9-4b9a-9e3b-faf7a012dfe1",
+            "name": "listarEspecialidades Copy",
+            "url": "http://localhost/sc_cursos/controllers/especialidad.controller.php?operacion=listarEspecialidades",
+            "method": "GET",
+            "sortNum": 480000,
+            "created": "2023-05-05T17:20:06.415Z",
+            "modified": "2023-05-05T17:20:06.415Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "listarEspecialidades",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "77329752-2a03-4be6-9648-e66e942bbd62",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "0162cbf9-58f9-4b9a-9e3b-faf7a012dfe1",
+            "name": "registrarEspecialidades ",
+            "url": "http://localhost/sc_cursos/controllers/especialidad.controller.php?operacion=registrarEspecialidades&nomespecialidad=Diseño de moda I&comentario",
+            "method": "GET",
+            "sortNum": 480000,
+            "created": "2023-05-05T17:20:11.938Z",
+            "modified": "2023-05-05T17:22:49.140Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "registrarEspecialidades",
+                    "isPath": false
+                },
+                {
+                    "name": "nomespecialidad",
+                    "value": "Diseño de moda I",
+                    "isPath": false
+                },
+                {
+                    "name": "comentario",
+                    "value": "",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "d6eb3077-d6b3-4c49-b9ef-0663d9255162",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "0162cbf9-58f9-4b9a-9e3b-faf7a012dfe1",
+            "name": "actualizarEspecialidades ",
+            "url": "http://localhost/sc_cursos/controllers/especialidad.controller.php?operacion=actualizarEspecialidades&nomespecialidad=Diseño de moda III&comentario=Comentario&idespecialidad=10",
+            "method": "GET",
+            "sortNum": 490000,
+            "created": "2023-05-05T17:23:47.961Z",
+            "modified": "2023-05-05T17:25:27.350Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "actualizarEspecialidades",
+                    "isPath": false
+                },
+                {
+                    "name": "nomespecialidad",
+                    "value": "Diseño de moda III",
+                    "isPath": false
+                },
+                {
+                    "name": "comentario",
+                    "value": "Comentario",
+                    "isPath": false
+                },
+                {
+                    "name": "idespecialidad",
+                    "value": "10",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "0835d42f-aa5f-451f-b434-4e5d47214d95",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "0162cbf9-58f9-4b9a-9e3b-faf7a012dfe1",
+            "name": "registrararEspecialidades  Copy Copy",
+            "url": "http://localhost/sc_cursos/controllers/especialidad.controller.php?operacion=registrarEspecialidades&nomespecialidad=Diseño de moda I&comentario",
+            "method": "GET",
+            "sortNum": 500000,
+            "created": "2023-05-05T17:23:50.952Z",
+            "modified": "2023-05-05T17:23:50.952Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "registrarEspecialidades",
+                    "isPath": false
+                },
+                {
+                    "name": "nomespecialidad",
+                    "value": "Diseño de moda I",
+                    "isPath": false
+                },
+                {
+                    "name": "comentario",
+                    "value": "",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "93c5f38d-4954-43fb-a29c-2acf5b4ab826",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "0162cbf9-58f9-4b9a-9e3b-faf7a012dfe1",
+            "name": "getEspecialidad",
+            "url": "http://localhost/sc_cursos/controllers/especialidad.controller.php?operacion=getEspecialidad&idespecialidad=1",
+            "method": "GET",
+            "sortNum": 510000,
+            "created": "2023-05-05T17:26:04.032Z",
+            "modified": "2023-05-05T17:26:42.742Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "getEspecialidad",
+                    "isPath": false
+                },
+                {
+                    "name": "idespecialidad",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "cd5669ae-97fe-4196-98e2-7105792e14dd",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "0162cbf9-58f9-4b9a-9e3b-faf7a012dfe1",
+            "name": "eliminarEspecialidad ",
+            "url": "http://localhost/sc_cursos/controllers/especialidad.controller.php?operacion=eliminarEspecialidad&idespecialidad=14",
+            "method": "GET",
+            "sortNum": 520000,
+            "created": "2023-05-05T17:27:57.431Z",
+            "modified": "2023-05-05T17:28:51.854Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "eliminarEspecialidad",
+                    "isPath": false
+                },
+                {
+                    "name": "idespecialidad",
+                    "value": "14",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "73403860-9daa-4f41-8628-f93848a7aae5",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "451be96a-f3e7-49f1-a69c-3b9dbd8275e0",
+            "name": "listarCategorias",
+            "url": "http://localhost/sc_cursos/controllers/categoria.controller.php?operacion=listarCategorias",
+            "method": "GET",
+            "sortNum": 530000,
+            "created": "2023-05-06T15:27:48.854Z",
+            "modified": "2023-05-06T15:28:21.193Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "listarCategorias",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "595a8dee-43d5-42b5-bbca-f703b69bc578",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "451be96a-f3e7-49f1-a69c-3b9dbd8275e0",
+            "name": "eliminarCategorias ",
+            "url": "http://localhost/sc_cursos/controllers/categoria.controller.php?operacion=eliminarCategoria&idcategoria=8",
+            "method": "GET",
+            "sortNum": 535000,
+            "created": "2023-05-06T15:46:24.637Z",
+            "modified": "2023-05-06T15:48:18.254Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "eliminarCategoria",
+                    "isPath": false
+                },
+                {
+                    "name": "idcategoria",
+                    "value": "8",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "f554dc27-eec0-445e-8f99-c34e592fb197",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "451be96a-f3e7-49f1-a69c-3b9dbd8275e0",
+            "name": "getCategoria",
+            "url": "http://localhost/sc_cursos/controllers/categoria.controller.php?operacion=getCategoria&idcategoria=1",
+            "method": "GET",
+            "sortNum": 537500,
+            "created": "2023-05-06T15:46:29.589Z",
+            "modified": "2023-05-06T15:46:58.275Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "getCategoria",
+                    "isPath": false
+                },
+                {
+                    "name": "idcategoria",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "34d0f89c-aa29-47fd-876c-8e249eb0e04c",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "451be96a-f3e7-49f1-a69c-3b9dbd8275e0",
+            "name": "registrarCategorias",
+            "url": "http://localhost/sc_cursos/controllers/categoria.controller.php?operacion=registrarCategorias&idespecialidad=7&categoria=Costura",
+            "method": "GET",
+            "sortNum": 540000,
+            "created": "2023-05-06T15:39:43.625Z",
+            "modified": "2023-05-06T15:42:46.883Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "registrarCategorias",
+                    "isPath": false
+                },
+                {
+                    "name": "idespecialidad",
+                    "value": "7",
+                    "isPath": false
+                },
+                {
+                    "name": "categoria",
+                    "value": "Costura",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "0949b3df-bd03-4292-a097-2cb972ca1f03",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "451be96a-f3e7-49f1-a69c-3b9dbd8275e0",
+            "name": "registrarCategorias Copy",
+            "url": "http://localhost/sc_cursos/controllers/categoria.controller.php?operacion=registrarCategorias&idespecialidad=7&categoria=Costura",
+            "method": "GET",
+            "sortNum": 550000,
+            "created": "2023-05-06T15:44:43.370Z",
+            "modified": "2023-05-06T15:44:43.370Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "registrarCategorias",
+                    "isPath": false
+                },
+                {
+                    "name": "idespecialidad",
+                    "value": "7",
+                    "isPath": false
+                },
+                {
+                    "name": "categoria",
+                    "value": "Costura",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "6d737eee-2d93-4894-8f74-467e4ea0fb9a",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "451be96a-f3e7-49f1-a69c-3b9dbd8275e0",
+            "name": "actualizarCategorias",
+            "url": "http://localhost/sc_cursos/controllers/categoria.controller.php?operacion=actualizarCategorias&idespecialidad=7&categoria=Costura y tejeria&idcategoria=8",
+            "method": "GET",
+            "sortNum": 550000,
+            "created": "2023-05-06T15:44:50.071Z",
+            "modified": "2023-05-06T15:45:33.017Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "actualizarCategorias",
+                    "isPath": false
+                },
+                {
+                    "name": "idespecialidad",
+                    "value": "7",
+                    "isPath": false
+                },
+                {
+                    "name": "categoria",
+                    "value": "Costura y tejeria",
+                    "isPath": false
+                },
+                {
+                    "name": "idcategoria",
+                    "value": "8",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "e1680db4-ac9c-4e25-8795-de425fa38843",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "d6a7c140-6ddc-4d61-9995-f28eeb8390e1",
+            "name": "listarHorarios",
+            "url": "http://localhost/cursos2_sc/controllers/horario.controller.php?operacion=listarHorarios",
+            "method": "POST",
+            "sortNum": 550000,
+            "created": "2023-05-06T16:25:19.880Z",
+            "modified": "2023-05-26T15:51:15.134Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "listarHorarios",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "listarHorarios"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "daf91231-7eaa-4203-ba22-12a535412aeb",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "d6a7c140-6ddc-4d61-9995-f28eeb8390e1",
+            "name": "getHorarios",
+            "url": "http://localhost/cursos2_sc/controllers/horario.controller.php?operacion=listarHorarios&idhorario=1",
+            "method": "POST",
+            "sortNum": 555000,
+            "created": "2023-05-06T16:46:43.678Z",
+            "modified": "2023-05-26T15:54:21.523Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "listarHorarios",
+                    "isPath": false
+                },
+                {
+                    "name": "idhorario",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "getHorario"
+                    },
+                    {
+                        "name": "idhorario",
+                        "value": "1"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "e4156401-e34b-4ba7-8b33-fe0ce13ea889",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "d6a7c140-6ddc-4d61-9995-f28eeb8390e1",
+            "name": "eliminarHorario",
+            "url": "http://localhost/cursos2_sc/controllers/horario.controller.php?operacion=eliminarHorario&idhorario=3",
+            "method": "POST",
+            "sortNum": 557500,
+            "created": "2023-05-06T16:47:07.783Z",
+            "modified": "2023-05-26T16:01:28.053Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "eliminarHorario",
+                    "isPath": false
+                },
+                {
+                    "name": "idhorario",
+                    "value": "3",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "eliminarHorario"
+                    },
+                    {
+                        "name": "idhorario",
+                        "value": "7"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "78ceb0b5-45a2-4108-879e-41305589c4b4",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "d6a7c140-6ddc-4d61-9995-f28eeb8390e1",
+            "name": "registrarHorarios",
+            "url": "http://localhost/cursos2_sc/controllers/horario.controller.php?operacion=registrarHorarios&idcurso=3&horainicio=09:00:00&horafin=12:00:00&dia=x",
+            "method": "POST",
+            "sortNum": 560000,
+            "created": "2023-05-06T16:26:36.833Z",
+            "modified": "2023-05-26T15:58:47.364Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "registrarHorarios",
+                    "isPath": false
+                },
+                {
+                    "name": "idcurso",
+                    "value": "3",
+                    "isPath": false
+                },
+                {
+                    "name": "horainicio",
+                    "value": "09:00:00",
+                    "isPath": false
+                },
+                {
+                    "name": "horafin",
+                    "value": "12:00:00",
+                    "isPath": false
+                },
+                {
+                    "name": "dia",
+                    "value": "x",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "registrarHorarios"
+                    },
+                    {
+                        "name": "idcurso",
+                        "value": "3"
+                    },
+                    {
+                        "name": "horainicio",
+                        "value": "09:30:00"
+                    },
+                    {
+                        "name": "horafin",
+                        "value": "11:30:00"
+                    },
+                    {
+                        "name": "dia",
+                        "value": "L"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "0d25ee58-7b38-4dae-873e-fc5dcab92d10",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "d6a7c140-6ddc-4d61-9995-f28eeb8390e1",
+            "name": "ActualizararHorario",
+            "url": "http://localhost/cursos2_sc/controllers/horario.controller.php?operacion=registrarHorarios&idcurso=3&horainicio=09:00:00&horafin=12:00:00&dia=x",
+            "method": "POST",
+            "sortNum": 565000,
+            "created": "2023-05-26T15:59:04.574Z",
+            "modified": "2023-05-26T16:00:40.771Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "registrarHorarios",
+                    "isPath": false
+                },
+                {
+                    "name": "idcurso",
+                    "value": "3",
+                    "isPath": false
+                },
+                {
+                    "name": "horainicio",
+                    "value": "09:00:00",
+                    "isPath": false
+                },
+                {
+                    "name": "horafin",
+                    "value": "12:00:00",
+                    "isPath": false
+                },
+                {
+                    "name": "dia",
+                    "value": "x",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "actualizarHorarios"
+                    },
+                    {
+                        "name": "idcurso",
+                        "value": "3"
+                    },
+                    {
+                        "name": "horainicio",
+                        "value": "09:00:00"
+                    },
+                    {
+                        "name": "horafin",
+                        "value": "11:00:00"
+                    },
+                    {
+                        "name": "dia",
+                        "value": "L"
+                    },
+                    {
+                        "name": "idhorario",
+                        "value": "6"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "44d54840-0a4d-4be0-baf9-b63908c7e283",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "62232343-d8fb-485f-941d-d513b334ae31",
+            "name": "Matricular",
+            "url": "http://localhost/cursos2_sc/controllers/matricula.controller.php?operacion=Matricular&idmatricula=4",
+            "method": "POST",
+            "sortNum": 582500,
+            "created": "2023-05-23T19:41:15.762Z",
+            "modified": "2023-05-23T19:45:32.066Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "Matricular",
+                    "isPath": false
+                },
+                {
+                    "name": "idmatricula",
+                    "value": "4",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "matricular"
+                    },
+                    {
+                        "name": "idMatricula",
+                        "value": "4"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "283de654-d4b4-4d0b-9369-3a4ac89b54a5",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "62232343-d8fb-485f-941d-d513b334ae31",
+            "name": "listarMatriculas",
+            "url": "http://localhost/cursos2_sc/controllers/matricula.controller.php?operacion=listarMatriculas",
+            "method": "POST",
+            "sortNum": 585000,
+            "created": "2023-05-23T19:35:18.974Z",
+            "modified": "2023-05-23T19:43:45.592Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "listarMatriculas",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "listarMatriculas"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "3e309a43-4fa6-4a21-975c-67c50aa9d5af",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "62232343-d8fb-485f-941d-d513b334ae31",
+            "name": "getMatriculas",
+            "url": "http://localhost/cursos2_sc/controllers/matricula.controller.php?operacion=listarMatriculas",
+            "method": "POST",
+            "sortNum": 587500,
+            "created": "2023-05-23T19:49:17.423Z",
+            "modified": "2023-05-23T19:49:49.703Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "listarMatriculas",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "getMatricula"
+                    },
+                    {
+                        "name": "idMatricula",
+                        "value": "1"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d74483c8-2959-4aab-bfb4-9a64e99e4282",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "62232343-d8fb-485f-941d-d513b334ae31",
+            "name": "registrarMatricula",
+            "url": "http://localhost/cursos2_sc/controllers/matricula.controller.php?operacion=listarAlumnos",
+            "method": "POST",
+            "sortNum": 590000,
+            "created": "2023-05-23T19:28:14.110Z",
+            "modified": "2023-06-02T17:16:20.042Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "operacion",
+                    "value": "listarAlumnos",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "registrarMatricula"
+                    },
+                    {
+                        "name": "idalumno",
+                        "value": "14"
+                    },
+                    {
+                        "name": "idapoderado",
+                        "value": ""
+                    },
+                    {
+                        "name": "parentesco",
+                        "value": ""
+                    },
+                    {
+                        "name": "idprecio",
+                        "value": "3"
+                    },
+                    {
+                        "name": "fechamatricula",
+                        "value": ""
+                    },
+                    {
+                        "name": "observacion",
+                        "value": ""
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d4776615-88dd-499a-ac74-18f7048e4efb",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "fea7c0cb-5be6-4f70-8518-394b6f88d3a1",
+            "name": "listarPgos",
+            "url": "http://localhost/cursos2_sc/controllers/pagos.controller.php?",
+            "method": "POST",
+            "sortNum": 590000,
+            "created": "2023-05-23T19:54:31.971Z",
+            "modified": "2023-05-23T19:55:37.856Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "listarPagos"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "0691cccd-1034-47f0-8faa-dcb32129b93b",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "1b3f62e6-26fd-47c3-b065-052b15e956aa",
+            "name": "listarPrecios",
+            "url": "http://localhost/cursos2_sc/controllers/precio.controller.php?",
+            "method": "POST",
+            "sortNum": 590000,
+            "created": "2023-05-25T23:10:18.920Z",
+            "modified": "2023-05-25T23:10:44.722Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "listarPrecios"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "3e070342-99f5-458a-ab9d-ac5146afbdc7",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "fea7c0cb-5be6-4f70-8518-394b6f88d3a1",
+            "name": "Pagar",
+            "url": "http://localhost/cursos2_sc/controllers/pagos.controller.php",
+            "method": "POST",
+            "sortNum": 600000,
+            "created": "2023-05-23T20:01:39.596Z",
+            "modified": "2023-06-02T16:55:55.366Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "pagar"
+                    },
+                    {
+                        "name": "idusuario",
+                        "value": "1"
+                    },
+                    {
+                        "name": "idtipopago",
+                        "value": "3"
+                    },
+                    {
+                        "name": "idmatricula",
+                        "value": "20"
+                    },
+                    {
+                        "name": "importe",
+                        "value": "40"
+                    },
+                    {
+                        "name": "num_operacion",
+                        "value": "6451515115"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "cd2db6ac-b16d-44eb-af3d-fabea7a17772",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "1b3f62e6-26fd-47c3-b065-052b15e956aa",
+            "name": "registrarPrecios",
+            "url": "http://localhost/cursos2_sc/controllers/precio.controller.php?",
+            "method": "POST",
+            "sortNum": 600000,
+            "created": "2023-05-25T23:10:18.921Z",
+            "modified": "2023-05-25T23:19:35.082Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "registrarPrecios"
+                    },
+                    {
+                        "name": "idcurso",
+                        "value": "1"
+                    },
+                    {
+                        "name": "porcentajedescuento",
+                        "value": "0"
+                    },
+                    {
+                        "name": "monto",
+                        "value": "100"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ce6454a6-8ad4-4ea4-8506-420d1f4a849e",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "fea7c0cb-5be6-4f70-8518-394b6f88d3a1",
+            "name": "descuento 50% ",
+            "url": "http://localhost/cursos2_sc/controllers/pagos.controller.php",
+            "method": "POST",
+            "sortNum": 620000,
+            "created": "2023-05-25T23:36:57.715Z",
+            "modified": "2023-06-01T22:13:57.486Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "Descuento50%"
+                    },
+                    {
+                        "name": "idpago",
+                        "value": "1"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "7b67d130-7826-4884-8433-4c06e674abe9",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "fea7c0cb-5be6-4f70-8518-394b6f88d3a1",
+            "name": "descuento 25%",
+            "url": "http://localhost/cursos2_sc/controllers/pagos.controller.php",
+            "method": "POST",
+            "sortNum": 630000,
+            "created": "2023-05-25T23:27:59.042Z",
+            "modified": "2023-06-01T22:17:58.378Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "Descuento25%"
+                    },
+                    {
+                        "name": "idpago",
+                        "value": "1"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "f8bebe3b-01ac-4a0c-b8a8-d5eabfd47323",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "fea7c0cb-5be6-4f70-8518-394b6f88d3a1",
+            "name": "descuento 75% ",
+            "url": "http://localhost/cursos2_sc/controllers/pagos.controller.php",
+            "method": "POST",
+            "sortNum": 640000,
+            "created": "2023-05-25T23:37:00.205Z",
+            "modified": "2023-06-01T22:16:35.600Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "Descuento75%"
+                    },
+                    {
+                        "name": "idpago",
+                        "value": "1"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "4030614c-02df-4846-80e8-44cba1b9e610",
+            "colId": "51c8e4e9-a644-4f6c-b7e5-537888616cfd",
+            "containerId": "1b3f62e6-26fd-47c3-b065-052b15e956aa",
+            "name": "eliminarPrecio",
+            "url": "http://localhost/cursos2_sc/controllers/precio.controller.php",
+            "method": "POST",
+            "sortNum": 640000,
+            "created": "2023-05-25T23:59:19.692Z",
+            "modified": "2023-05-26T00:00:12.479Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "operacion",
+                        "value": "eliminarPrecio"
+                    },
+                    {
+                        "name": "idprecio",
+                        "value": "6"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ]
+}
